@@ -13,6 +13,8 @@
 		F21FA6B82719F1EC00DA09AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21FA6B62719F1EC00DA09AE /* Main.storyboard */; };
 		F21FA6BA2719F1EE00DA09AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21FA6B92719F1EE00DA09AE /* Assets.xcassets */; };
 		F21FA6BD2719F1EE00DA09AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21FA6BB2719F1EE00DA09AE /* LaunchScreen.storyboard */; };
+		F21FA6C52719F21A00DA09AE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21FA6C42719F21A00DA09AE /* Location.swift */; };
+		F21FA6C72719F2C800DA09AE /* RealmFile.json in Resources */ = {isa = PBXBuildFile; fileRef = F21FA6C62719F2C800DA09AE /* RealmFile.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F21FA6B92719F1EE00DA09AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F21FA6BC2719F1EE00DA09AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F21FA6BE2719F1EE00DA09AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21FA6C42719F21A00DA09AE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F21FA6C62719F2C800DA09AE /* RealmFile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RealmFile.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 		F21FA6AF2719F1EC00DA09AE /* Exporter-csv */ = {
 			isa = PBXGroup;
 			children = (
+				F21FA6C62719F2C800DA09AE /* RealmFile.json */,
 				F21FA6B02719F1EC00DA09AE /* AppDelegate.swift */,
 				F21FA6B22719F1EC00DA09AE /* SceneDelegate.swift */,
+				F21FA6C42719F21A00DA09AE /* Location.swift */,
 				F21FA6B42719F1EC00DA09AE /* ViewController.swift */,
 				F21FA6B62719F1EC00DA09AE /* Main.storyboard */,
 				F21FA6B92719F1EE00DA09AE /* Assets.xcassets */,
@@ -128,6 +134,7 @@
 				F21FA6BD2719F1EE00DA09AE /* LaunchScreen.storyboard in Resources */,
 				F21FA6BA2719F1EE00DA09AE /* Assets.xcassets in Resources */,
 				F21FA6B82719F1EC00DA09AE /* Main.storyboard in Resources */,
+				F21FA6C72719F2C800DA09AE /* RealmFile.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			files = (
 				F21FA6B52719F1EC00DA09AE /* ViewController.swift in Sources */,
 				F21FA6B12719F1EC00DA09AE /* AppDelegate.swift in Sources */,
+				F21FA6C52719F21A00DA09AE /* Location.swift in Sources */,
 				F21FA6B32719F1EC00DA09AE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
